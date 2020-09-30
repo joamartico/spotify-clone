@@ -1,0 +1,80 @@
+.Sidebar {
+	position: fixed;
+	border: 1px solid black;
+	background: #040404;
+	width: 210px;
+	height: 100vh;
+	padding: 0 10px;
+	padding-top: env(safe-area-inset-top);
+	z-index: 900;
+}
+
+.sidebar__logo {
+	padding: 23px 13px 2px;
+	height: 40px;
+	margin-right: auto;
+	margin-bottom: 17px;
+}
+
+
+.sidebar__option {
+    color: #a6a6a6;
+	display: flex;
+	align-items: center;
+	height: 40px;
+	cursor: pointer;
+	transition: 200ms color ease-in;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.sidebar__option > p {
+    margin-left: 10px;
+} 
+
+.sidebar__title {
+    padding-left: 10px;
+    color: #a6a6a6;
+    font-size: 13px;
+}
+
+.sidebar__playlists {
+	overflow-y: auto;
+    height: 45vh;
+    margin-left: 10px;
+}
+
+.sidebar__playlist {
+    color: #a6a6a6;
+	display: flex;
+	align-items: center;
+	height: 36px;
+	cursor: pointer;
+	transition: 200ms color ease-in;
+	text-decoration: none;
+}
+
+.sidebar__playlist:hover,
+.sidebar__option:hover {
+	color: white;
+}
+
+.sidebar__optionIcon {
+	padding: 10px;
+}
+
+.sidebarOption > p {
+	margin-left: 15px;
+	font-size: 14px;
+}
+
+.sidebar__optionSelected {
+	background: #333;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.Sidebar > hr {
+	border: 1px solid #282828;
+	width: 90%;
+}

@@ -1,0 +1,39 @@
+.Header {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.500);
+    width: 80%;
+    min-width: 750px;
+    max-width: 1200px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 230px;
+    padding: 0 20px;
+	z-index: 700;
+}
+
+.header__left {
+    flex: 0.5;
+    background: white;
+    color: gray;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+    max-width: 350px;
+}
+
+
+
+.header__right {
+    display: flex;
+    align-items: center;
+    margin-right: 90px;
+}
+
+.header__right > h4 {
+    margin-left: 10px;
+}

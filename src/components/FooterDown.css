@@ -1,0 +1,23 @@
+.FooterDown {
+    position: fixed;
+    bottom: 0vh;
+    display: flex;
+    background: #282828;
+    width: 100vw;
+    height: 80px;
+    margin-top: auto;
+    padding-top: 10px;
+    justify-content: space-around;
+    border-top: 1px solid rgb(26, 25, 25);
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.footerDown__option {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    text-decoration: none;
+    font-size: 10px !important;
+    align-items: center;
+}

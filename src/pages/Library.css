@@ -1,0 +1,49 @@
+.Library {
+	background: #12121200;
+	max-width: 100%;
+	padding: 15px;
+	margin-left: 220px;
+	padding-top: 70px;
+	z-index: 100;
+	position: fixed;
+	top: 0px;
+}
+
+.Library::-webkit-scrollbar {
+	display: none;
+}
+
+.library__options {
+	display: flex;
+	margin-top: -10px;
+	position: sticky;
+	top: 1%;
+}
+
+.library__option {
+	margin-right: 35px;
+	font-weight: 700;
+	text-decoration: none;
+	color: white;
+}
+
+.library__optionSelected::after {
+	content: "";
+	display: flex;
+	position: relative;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	background: #1ed15e;
+	height: 2px;
+	width: 100%;
+	transition: position 0.5s  ease-in;
+}
+
+@media (max-width: 950px) {
+	.Library {
+		margin-left: 0;
+		padding-top: 55px;
+	}
+	
+	
+}
